@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="author" content="Steve Kinyua">
+        <meta name="description" content="My Contacts">
+        <title>Contact Me</title>
+        <link rel="icon" href="steve/ball.steve.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="steve.css">
+
+    </head>
+    <body>
+        <header class="header">
+        <h1 class="header__h1">Contact Me</h1>
+        
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li>
+                        <a href="steve.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="myprojects.html">My Projects</a>
+                    </li>
+                    
+                </ul>
+            </nav>    
+        </header>   
+        
+
+        
+            <figure>
+                <img src="Contactme.jpg" alt="My Contacts" title="Contact Me" width="200" height="200">
+                <figcaption>
+                    My Contacts
+                </figcaption>
+            </figure>
+            
+
+        <main class="main">
+        <article class="main__article">
+        <section class="hero">
+          <h2 class="header__h2">Contact Form</h2>
+          <form action="https://httpbin.prg/get" method="get" class="contact__form">
+            <fieldset class="contact__fieldset">
+                <legend class="offscreen">Send Me A Message</legend>
+                <p class="contact__p">
+                <label class="offscreen" for="name">Name:</label>
+                <input class="contact__input" type="text" name="name" id="name" placeholder="Your name" required>
+                </p>
+
+                <p class="contact__p">
+                    <label class="offscreen" for="email">Email:</label>
+                    <input class="contact__input" type="text" name="email" id="email" placeholder="Your email" required></p>
+
+                <p class="contact__p">
+                    <label class="offscreen" for="message">Your Message:</label>
+                    
+                    <textarea class="contact__textarea" name="message" id="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                </p>
+                
+            </fieldset>
+            <button class="contact__button" type="submit">Submit</button>
+            <button class="contact__button" type="reset">Reset</button>
+          </form>
+        </section>
+    </article>
+
+        <article class="main__article contact">
+     
+            <h2 class="contact__h2">My Location</h2>
+            <address>
+                Utawala, Kincar <br>
+                Embakasi East, MO +254703828770
+                <br><br>
+                Phone: <a href="tel:+254703828770">0703-828-770</a>
+            </address>
+     
+        </article>
+        </main>
+        
+
+        <footer class="footer">
+            <p>
+                <p>
+                    <span class="nowrap">Copyright&copy;</span>
+                    <span class="nowrap">Steve Kinyua</span>
+                </p> 
+            </p>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+
+            <p> 
+                <a href="https://www.instagram.com/_.steka/?hl=en">My Socials</a>
+            </p>
+    
+        </footer>
+    </body>
+    
+    </html>
+       
